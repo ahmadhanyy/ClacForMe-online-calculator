@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Scientific Calculator">
+    <title>CalcForMe - Mathematical Calculator</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="calc.png">
+        </div>
+        <div class="h1">
+            <h1>CalcForMe</h1>
+        </div>
+    </header>
+    <div class="discribtion">
+        <h3>Online Mathematical Calculator.</h3>
+        <h6>&copy; 2023</h6>
+    </div>
+    <section>
+        <div class="container">
+            <div class="display">
+                <input id="screen" type="text" placeholder="0">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="Sin()">sin</button>
+                    <button onclick="Log()">log</button>
+                    <button onclick="Display('-')">(+/-)</button> 
+                    <button onclick="Clear()">clear</button>
+                    <button onclick="Delete()">delete</button>
+                </div>
+                <div class="row">
+                    <button onclick="Cos()">cos</button>
+                    <button onclick="Display('7')">7</button>
+                    <button onclick="Display('8')">8</button>
+                    <button onclick="Display('9')">9</button>
+                    <button onclick="Display('/')">&divide;</button>
+                </div>
+                <div class="row">
+                    <button onclick="Tan()">tan</button>
+                    <button onclick="Display('4')">4</button>
+                    <button onclick="Display('5')">5</button>
+                    <button onclick="Display('6')">6</button>
+                    <button onclick="Display('*')">&times;</button>
+                </div>
+                <div class="row">
+                    <button onclick="Power()">x&sup2;</button>
+                    <button onclick="Display('1')">1</button>
+                    <button onclick="Display('2')">2</button>
+                    <button onclick="Display('3')">3</button>
+                    <button onclick="Display('-')">&minus;</button>
+                </div>
+                <div class="row">
+                    <button onclick="Sqrt()">&radic;</button>
+                    <button onclick="Display('0')">0</button>
+                    <button onclick="Display('.')">.</button>
+                    <button onclick="Calc()">&equals;</button>
+                    <button onclick="Display('+')">&plus;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="f">
+            <p>
+                CalcForMe focus is to provide fast, comprehensive, convenient, free online calculator.
+                Our goal is to become the easiest site for people who need to make quick calculations.
+                Additionally, we believe the internet should be a source of free information.
+                Therefore, all of our tools and services are completely free, with no registration required.
+            </br>Please inform us if you notice even a slight error, your input is extremely valuable to us.
+            </p>
+                <a href="mailto:ahmad.jamalelden@gmail.com">Contact Us.</a>
+        </div>
+    </footer>
+    <script src="JAVASCRIPT/main.js"></script>
+</body>
+</html>
